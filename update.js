@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         window.location.href = "./";
       } catch (error) {
         console.error("Erro ao atualizar os dados:", error);
-        alert("Erro ao atualizar os dados.");
+        alert("Você não tem permissão para atualizar os dados.");
       }
     });
 });
